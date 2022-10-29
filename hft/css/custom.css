@@ -1,0 +1,47 @@
+/*
+* |  || ||||| |||||
+* |__|| ||__    |
+* |  || ||      |
+* |  || ||      |
+* Made for https://hft.com
+* Website   :   Version 02
+* Designer  :   the_activated_carbon
+* Owner     :   Joydeep Ghosh
+*/
+
+* { margin: 0; padding: 0; }
+body { background-color: white; }
+
+a { text-decoration: none !important; }
+nav { background-color: #000000 !important; }
+.navbar-toggler { border: none !important; }
+
+/* Image */
+.bg-img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    -webkit-filter: brightness(25%) contrast(110%);
+            filter: brightness(25%) contrast(110%);
+    z-index: -2;
+}
+.img-dark { 
+    -webkit-filter: brightness(50%) contrast(120%); 
+            filter: brightness(50%) contrast(120%); 
+}
+
+
+/* Color */
+.big-text { font-size: 4em;}
+.text-black { color: black; }
+.bg-black { background-color: black; }
+.bg-white { background-color: white; }
+
+.slide-active { background-color: #ffc107; }
+
+.btn-change .active i{ color: #ffc107 !important; }
+
+.social a i:hover { color: #ffc107 !important; }
